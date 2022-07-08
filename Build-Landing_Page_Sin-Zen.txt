@@ -1,0 +1,263 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <header id="header">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <img id="header-img" src="https://scontent.fcvj4-1.fna.fbcdn.net/v/t1.6435-9/98318427_3177745655596758_4013407631124201472_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_ohc=hoaV98rW1X0AX80qPQz&tn=ZzzZMZmvsF2UpHBF&_nc_ht=scontent.fcvj4-1.fna&oh=00_AT_BpjkxtY1Izp7YuXykt5b9AXhtolPgJ0BuqPxjkHeouQ&oe=62EC4493" alt="Sin-Zen logo" />
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#Synopsis">Synopsis</a></li>
+        <li><a class="nav-link" href="#Reviews">Reviews</a></li>
+        <li><a class="nav-link" href="#Read">Read</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2 id="Synopsis">What is 'Sin and Zen'?</h2>
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/3PuDwcARwx8" title="YouTube video player Sin-Zen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      Video unsupported.
+      </iframe>
+      <p class="text first-paragraph">
+        Will Strief has just fallen from the sky… Literally.
+      </p>
+      <p class="text">
+        He is no angel. He is a parachutist for the infamous French Foreign Legion, or he was until one bad jump leaves him shattered: physically, mentally, and spiritually.
+      </p>
+      <p class="text">
+        After a life in the military, jumping out of planes, and living a hero’s tale, the twenty-three-year-old Will finds himself floating about in the social gutters of Marseille, France. Despite his limp, he is reveling in his sudden liberation and rock-star life: hilarious drug experiences, vicious drinking, and a delicious sex life that would gorge a lesser being.
+      </p>
+      <p class="text">Yet, all he wants is to find some meaning in life. Is it found in romantic love? Silent meditation under the Bodhi Tree? Or climbing the Himalayas? Will must find the balance between ‘Sin’ and ‘Zen’. And through it all, he explores the idea of romance, lust, trust, friendship, and peace in a raw and realistic tone while living life at its ill-defined edge.
+      </p>
+      <p class="text">It is a fast-paced transgressive fiction that delves into the mind of a restless man trying to navigate an unplanned, but ultimately revealing, journey. 
+      </p>
+      <p class="text">Just jump and hang on for the ride.
+      </p>
+    </section>
+    <section>
+      <h2 id="Reviews">What do the people say?</h2>
+      <p class="quote">
+Sin and Zen is a brutally honest story blanketed with the philosophy of life that makes it one of the most powerful stories that I have read this year. S.W. Stribling is a powerful storyteller that writes in a way that allows his readers to feel the raw and dark emotion emulating from his characters.</p>
+      <p class="quoter">- Victoria DeSouza, The New England Book Critic</p>
+      <p class="quote">
+I listened to this book in less than week. As soon as it started you wanted to continue listening to it. I even bought the hard copy book so I can keep a physical copy.</p>
+      <p class="quoter">- Pedro Ramirez, Audible</p>
+      <p class="quote">
+The characters lead the plot. Each character possesses individuality. The craft of the characters is the USP of the book. Will's carnal experiences are not about mere sex and hence the book stands out...</p>
+      <p class="quoter">- Rakhi Jayashankar, Outset Magazine</p>
+    </section>
+    <section>
+      <h2 id="Read">Find your 'Sin and Zen'</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <div class="info">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div class="info">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="youremail@email.com" />
+        </div>
+        <div class="info">
+          <label for="birth-date">D.O.B.<span class="sr-only">(Must be 18)</span></label>
+          <input type="date" name="birth-date" id="birth-date" />
+        </div>
+        <input id="submit" type="submit"></input>
+      </form>
+    </section>
+  </main>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+	height: 105px;
+	background-color: black;
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+nav {
+  width: 50%;
+	max-width: 300px;
+	height: 50px;
+}
+
+nav > ul {
+  display: flex;
+	justify-content: space-evenly;
+  flex-wrap: wrap;
+	align-items: center;
+	padding-inline-start: 0;
+	margin-block: 0;
+	height: 100%;
+}
+
+nav > ul > li {
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+	padding: 0.2rem;
+	display: block;
+}
+
+#header-img {
+  width: max(300px, 18vw);
+	background-color: #0a0a23;
+  aspect-ratio: 100 / 30;
+	padding: 0.4rem;
+}
+
+nav > ul > li:hover {
+  background-color: orangered;
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  color: orangered;
+  font-size: 3rem;
+}
+
+main {
+  padding-top: 50px;
+}
+
+p {
+  padding-top: 10px;
+  font-size: 1.8rem;
+}
+
+.first-paragraph::first-letter {
+  font-size: 6rem;
+  color: orangered;
+  float: left;
+  margin-right: 1rem;
+}
+
+body {
+  font-family: 'Baskervville', serif;
+  color: linen;
+  background-color: black;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto 10px auto;
+  max-width: 600px;
+}
+
+h1, h2 {
+  font-family: Courier;
+}
+
+h2 {
+  margin-top: 0px;
+  padding-top: 60px;
+}
+
+.quote {
+  color: white;
+  font-size: 2.4rem;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.quote::before {
+  content: '" ';
+}
+
+.quote::after {
+  content: ' "';
+}
+
+.quoter {
+  font-size: 2rem;
+  text-align: center;
+}
+
+input {
+  font-size: 16px;
+}
+
+.info label, .info input {
+  display: inline-block;
+  text-align: right;
+}
+
+.info input {
+  width: 50%;
+  text-align: left;
+}
+
+.info label {
+  width: 10%;
+  min-width: 60px;
+}
+
+#submit {
+	display: block;
+	margin: 10px auto;
+	width: 40%;
+	padding: 5px;
+	font-size: 15px;
+	background: #d0d0d5;
+}
+
+.sr-only {
+  position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+@media only screen and (max-width: 720px) {
+  .image-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .text-with-images {
+    grid-template-columns: 1fr;
+  }
+}
+
+** end of undefined **
+
